@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+header{
+    height: 15rem;
+    background-color: rgb(200, 245, 200);
+    display: flex;
+    justify-content: center;
+}
+.img-name{
+    width: 45%;
+}
+.presentation{
+    width: 50%;
+}
+.img-Ana{
+    height: 8.5rem;
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+h1{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.title-presentation{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.text-presentation{
+    display: flex;
+    justify-content: center;
+}
+.icon-sena{
+    width: 2.5rem;
+    background-color: rgb(200, 245, 200);
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+.title-projects{
+    margin-top: 2.5rem;
+}
+.projects{
+    display: flex;
+    margin-left: 10%;
+}
+hr{
+    margin-top: 1rem;
+    width: 80%;
+    height: 4px;
+    background-color: rgb(2, 163, 2);
+    margin-left: 10%;
+}
+
+
