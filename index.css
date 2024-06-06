@@ -31,7 +31,7 @@ h1{
 }
 .text-presentation{
     display: flex;
-    justify-content: center;
+    text-align: center;
 }
 .icon-sena{
     width: 2.5rem;
@@ -53,5 +53,28 @@ hr{
     background-color: rgb(2, 163, 2);
     margin-left: 10%;
 }
+.cards-projects{
+    margin: 10%;
+    background-color: rgb(2, 163, 2);
+    height: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.space-img{
+    width: 40%;
+    align-content: center;
+}
+.icon-project{
+    width: 4rem;
+    height: 4rem;
+}
+.text-project{
+    width: 60%;
+    text-align: center;
+    align-content: center;
+}
+
 
 
