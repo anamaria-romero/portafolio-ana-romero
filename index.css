@@ -2,7 +2,7 @@
     margin: 0;
 }
 header{
-    height: 17rem;
+    height: 19rem;
     background-color: rgb(200, 245, 200);
     display: flex;
     justify-content: center;
@@ -18,7 +18,6 @@ header{
     width: 9rem;
     padding: 1rem;
     border-radius: 2rem;
-    margin-top: 1rem;
 }
 h1{
     font-size: 1.1rem;
@@ -30,6 +29,7 @@ h1{
     justify-content: center;
 }
 .text-presentation{
+    margin: 4%;
     display: flex;
     text-align: center;
 }
@@ -86,7 +86,7 @@ a{
     display: flex;
 }
 .cards-references{
-    margin: 10%;
+    margin: 12%;
     border: groove;
     border-color: black;
     width: 9rem;
@@ -108,12 +108,12 @@ a{
     justify-content: space-around;
 }
 .icons{
-    height: 5rem;
-    width: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     border-radius: 50%;
 }
 .progress-container {
-    width: 20%;
+    width: 90%;
     background-color: rgb(200, 245, 200);;
     border-radius: 25px;
 }
@@ -121,4 +121,23 @@ a{
     height: 15px;
     background-color: rgb(2, 163, 2);
     border-radius: 25px;
+}
+h5{
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1018px) {
+   .img-Ana{
+    width: 11rem;
+    height: 11.5rem;
+   }
+   h1{
+    font-size: 1.4rem;
+   }
+   .title-presentation{
+    font-size: 2rem;
+   }
+   .text-presentation{
+    font-size: 1.3rem;
+   }
 }
