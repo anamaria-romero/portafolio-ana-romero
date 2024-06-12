@@ -94,6 +94,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(200, 245, 200);
 }
 .first-part{
     width: 50%;
@@ -111,5 +112,13 @@ a{
     width: 5rem;
     border-radius: 50%;
 }
-
-
+.progress-container {
+    width: 20%;
+    background-color: rgb(200, 245, 200);;
+    border-radius: 25px;
+}
+.progress-bar {
+    height: 15px;
+    background-color: rgb(2, 163, 2);
+    border-radius: 25px;
+}
