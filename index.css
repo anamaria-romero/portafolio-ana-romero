@@ -2,7 +2,7 @@
     margin: 0;
 }
 header{
-    height: 15rem;
+    height: 17rem;
     background-color: rgb(200, 245, 200);
     display: flex;
     justify-content: center;
@@ -14,18 +14,18 @@ header{
     width: 50%;
 }
 .img-Ana{
-    height: 8.5rem;
-    width: 8rem;
+    height: 9.5rem;
+    width: 9rem;
     padding: 1rem;
     border-radius: 2rem;
     margin-top: 1rem;
 }
 h1{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-left: 1rem;
 }
 .title-presentation{
-    margin-top: 1rem;
+    margin-top: 7%;
     display: flex;
     justify-content: center;
 }
@@ -49,32 +49,67 @@ h1{
 hr{
     margin-top: 1rem;
     width: 80%;
-    height: 4px;
+    height: 6px;
     background-color: rgb(2, 163, 2);
     margin-left: 10%;
 }
 .cards-projects{
     margin: 10%;
     background-color: rgb(2, 163, 2);
-    height: 6rem;
+    height: 7rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .space-img{
-    width: 40%;
+    width: 30%;
     align-content: center;
 }
 .icon-project{
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
 }
 .text-project{
-    width: 60%;
+    width: 40%;
     text-align: center;
     align-content: center;
 }
-
+a{
+    color: black;
+    text-decoration: none;
+}
+.title-reference{
+    margin-top: 2.5rem;
+}
+.references{
+    display: flex;
+}
+.cards-references{
+    margin: 10%;
+    border: groove;
+    border-color: black;
+    width: 9rem;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-part{
+    width: 50%;
+}
+.second-part{
+    width: 50%;
+}
+.experiences{
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
 
 
