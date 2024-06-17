@@ -2,20 +2,21 @@
     margin: 0;
 }
 header{
-    height: 19rem;
+    height: 20rem;
     background-color: rgb(200, 245, 200);
     display: flex;
     justify-content: center;
 }
 .img-name{
     width: 45%;
+    align-content: center;
 }
 .presentation{
     width: 50%;
 }
 .img-Ana{
-    height: 9.5rem;
-    width: 9rem;
+    height: 10rem;
+    width: 9.5rem;
     padding: 1rem;
     border-radius: 2rem;
 }
@@ -24,7 +25,7 @@ h1{
     margin-left: 1rem;
 }
 .title-presentation{
-    margin-top: 7%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
 }
@@ -56,14 +57,14 @@ hr{
 .cards-projects{
     margin: 10%;
     background-color: rgb(2, 163, 2);
-    height: 7rem;
+    height: 8rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 .space-img{
-    width: 30%;
+    width: 40%;
     align-content: center;
 }
 .icon-project{
@@ -126,18 +127,49 @@ h5{
     text-align: center;
 }
 
+@media screen and (min-width: 480px) and (max-width: 900px) {
+    .first-part{
+        margin-right: -3rem;
+        margin-left: 2.5rem;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1018px) {
-   .img-Ana{
-    width: 11rem;
-    height: 11.5rem;
+   header{
+    height: 14rem;
    }
-   h1{
-    font-size: 1.4rem;
+   .img-name{
+    width: 30%;
+    }
+    .img-Ana{
+    width: 9rem;
+    height: 9.5rem;
    }
-   .title-presentation{
-    font-size: 2rem;
-   }
-   .text-presentation{
-    font-size: 1.3rem;
-   }
+   .presentation{
+    width: 50%;
+    }
+    .title-presentation{
+        margin-top: 8%;
+        font-size: 1.5rem;
+    }
+    .duo-projects{
+        display: flex;
+    }
+    .duo-project1{
+        width: 50%;
+    }
+    .duo-project2{
+        width: 50%;
+    }
+    .cards-references{
+        width: 12rem;
+        height: 10rem;
+    }
+    .first-part{
+        margin-right: -5rem;
+        margin-left: 6rem;
+    }
+    .icons{
+        height: 5.5rem;
+        width: 5.5rem;
+    }
 }
